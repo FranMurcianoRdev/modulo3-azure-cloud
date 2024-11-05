@@ -120,7 +120,7 @@ namespace tour_of_heroes_api.Controllers
             return Ok(hero);
 
         }
-
+        //Ejercicio 1:
         // DELETE: api/Hero/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteHero(int id)
